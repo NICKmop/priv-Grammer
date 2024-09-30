@@ -8,10 +8,8 @@ const fnItem = (object: itemType) => {
     return object
 };
 
-let objectId = fnItem({ id: "itemFunc", histLogin: 202409240529 }).id;
-let objectDate = fnItem({ id: "itemFunc", histLogin: 202409240529 }).histLogin;
+fnItem({ id: "itemFunc", histLogin: 202409240529 }).id;
 
-console.log('dist folder build test');
 
 
 

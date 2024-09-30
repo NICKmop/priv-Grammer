@@ -1,3 +1,5 @@
 # node ignore
 tsjs-script/ts/node_modules/
-tsjs-script/ts/package-lock.json
+**/package-lock.json
+
+.idea/
