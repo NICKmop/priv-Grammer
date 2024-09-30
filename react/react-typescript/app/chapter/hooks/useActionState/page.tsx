@@ -14,7 +14,9 @@ const AddToCartForm = ({ itemID, itemTitle }: AddToCartFormType) => {
         <form action={formAction}>
             <h2>{itemTitle}</h2>
             <input type="hidden" name="itemID" value={itemID} />
-            <Button type={"submit"}>Add to Cart</Button>
+            <Button
+                type={"submit"}>Add to Cart
+            </Button>
             {message}
         </form>
     )
